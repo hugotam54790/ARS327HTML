@@ -1,0 +1,60 @@
+<html>
+	<head>
+        <title>Page 1 Hugo</title>
+    </head>
+    
+    <body bgcolor="black" background="images/bg.png" text="white">
+        
+    <center><h1><font face="helvetica"> Click the small box!!! It is interactive!!!</font></h1>
+    
+    <a href="page2.html">
+        <font face="helvetica">Page 2!!!!</font>
+    </a>
+    </center>
+    
+        <center><img src="images/Loading.gif" /></center>
+        <p align="center"><font face="helvetica" color="white">"Be Strong!" I whispered to the WiFi signal at the Sinc Site...</font></p>      
+        
+  <center> <style>
+    #hugo-box {
+      width: 100px;
+      height:100px;
+      background-color:#00ffe2;
+      text-align: center;
+    }
+    
+    #hugo-box h2 {
+      color: white;
+    }
+  </style>
+        
+        <div id="hugo-box">
+    <br/>
+    <h2> Click Me </h2>
+  </div>
+  <br/>
+  
+  
+  <script type="text/javascript">
+    function changeColor(){
+      var box = document.getElementById('hugo-box');
+      if (box.style.backgroundColor == "white")
+      {
+           box.style.backgroundColor = "red";
+      }
+      else
+        {
+          box.style.backgroundColor = "white";
+        }
+      
+    }
+    
+    document.getElementById('hugo-box').addEventListener('click', changeColor);
+  </script>
+      
+      <a href="page2.html">
+        <font face="helvetica">Isn't it AWWWWESOME? It changes color when you are clicking it!!! Now, Go 2 Page 2!!!!</font>
+    </a>
+        </center>
+    </body>
+</html>
